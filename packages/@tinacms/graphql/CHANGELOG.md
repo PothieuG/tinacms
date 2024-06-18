@@ -1,5 +1,11 @@
 # tina-graphql
 
+## 1.4.36
+
+### Patch Changes
+
+- 76c1a2efc: Fix issue where empty folders were not visible #4566
+
 ## 1.4.35
 
 ### Patch Changes

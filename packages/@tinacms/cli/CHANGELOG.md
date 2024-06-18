@@ -1,5 +1,17 @@
 # tinacms-cli
 
+## 1.5.47
+
+### Patch Changes
+
+- 0ba0e5954: Fix remix visual editing error
+- Updated dependencies [76c1a2efc]
+  - @tinacms/graphql@1.4.36
+  - @tinacms/datalayer@1.2.36
+  - @tinacms/search@1.0.21
+  - tinacms@1.6.5
+  - @tinacms/app@1.2.43
+
 ## 1.5.46
 
 ### Patch Changes
