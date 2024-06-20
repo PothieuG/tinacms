@@ -3,8 +3,7 @@ import React from 'react'
 export function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(' ')
 }
-
-import * as Popover from '@radix-ui/react-popover'
+const Popover = require('@radix-ui/react-popover')
 
 export const OverflowMenu = ({ toolbarItems, className = 'w-full' }) => {
   return (
