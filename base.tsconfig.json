@@ -13,10 +13,7 @@
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "strict": false,
-    "target": "ES6",
-    "pretty": true,
-    "diagnostics": true,
-    "extendedDiagnostics": true
+    "target": "ES6"
   },
   "exclude": [
     "node_modules"
