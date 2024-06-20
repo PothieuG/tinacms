@@ -16,10 +16,7 @@
     "target": "ES6",
     "pretty": true,
     "diagnostics": true,
-    "extendedDiagnostics": true,
-    "listFiles": true,
-    "traceResolution": true,
-    "listEmittedFiles": true
+    "extendedDiagnostics": true
   },
   "exclude": [
     "node_modules"
