@@ -20,5 +20,8 @@
     "listFiles": true,
     "traceResolution": true,
     "listEmittedFiles": true
-  }
+  },
+  "exclude": [
+    "node_modules"
+  ]
 }
