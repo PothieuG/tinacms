@@ -13,6 +13,12 @@
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "strict": false,
-    "target": "ES6"
+    "target": "ES6",
+    "pretty": true,
+    "diagnostics": true,
+    "extendedDiagnostics": true,
+    "listFiles": true,
+    "traceResolution": true,
+    "listEmittedFiles": true
   }
 }
