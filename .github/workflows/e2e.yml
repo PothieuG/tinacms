@@ -51,11 +51,11 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '16'
+          node-version: '18'
       - uses: pnpm/action-setup@v2.2.2
         with:
           version: 7.4.0
-          run_install: true
+          run_install: false
       - name: Build root package
         run: pnpm run build
       - name: Start and test Playwright example project
