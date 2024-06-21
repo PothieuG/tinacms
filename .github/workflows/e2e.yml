@@ -13,6 +13,9 @@ jobs:
         browser: ['chrome', 'firefox']
     steps:
       - uses: actions/checkout@v2
+      - name: Configure npm
+        run: |
+          echo "auto-install-peers=true" >> .npmrc
       - uses: pnpm/action-setup@v2.2.2
         with:
           version: 7.4.0
