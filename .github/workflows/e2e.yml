@@ -55,7 +55,7 @@ jobs:
       - uses: pnpm/action-setup@v2.2.2
         with:
           version: 7.4.0
-          run_install: false
+          run_install: true
       - name: Build root package
         run: pnpm run build
       - name: Start and test Playwright example project
