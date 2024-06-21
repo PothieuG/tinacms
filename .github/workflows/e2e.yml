@@ -12,14 +12,10 @@ jobs:
       matrix:
         browser: ['chrome', 'firefox']
     steps:
-      - uses: actions/checkout@v2
-      - name: Configure npm
-        run: |
-          echo "auto-install-peers=true" >> .npmrc
+      - uses: actions/checkout@v4
       - uses: pnpm/action-setup@v2.2.2
         with:
-          version: 7.4.0
-          run_install: true
+          version: latest
       - name: Cypress run
         uses: cypress-io/github-action@v4
         with:
@@ -57,8 +53,7 @@ jobs:
           node-version: '18'
       - uses: pnpm/action-setup@v2.2.2
         with:
-          version: 7.4.0
-          run_install: true
+          version: latest
       - name: Build root package
         run: pnpm run build
       - name: Start and test Playwright example project
