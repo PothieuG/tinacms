@@ -15,6 +15,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: pnpm/action-setup@v2.2.2
         with:
+          run_install: true
           version: latest
       - name: Cypress run
         uses: cypress-io/github-action@v4
@@ -54,6 +55,7 @@ jobs:
       - uses: pnpm/action-setup@v2.2.2
         with:
           version: latest
+          run_install: true
       - name: Build root package
         run: pnpm run build
       - name: Start and test Playwright example project
